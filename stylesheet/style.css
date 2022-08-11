@@ -1,0 +1,10 @@
+#side-slide-bars h2,h3{
+    padding: 10px 10px 10px 50px;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+#side-slide-bars{
+    width: 20vw;
+    margin-left: -5vw;
+}
