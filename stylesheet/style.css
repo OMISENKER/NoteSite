@@ -1,35 +1,63 @@
 
-#side-slide-bars h3{
-    width: 8vw;
-    margin-left: -2vw;
-    padding: 10px 10px 10px 50px;
-    background-color: aquamarine;
-    border-radius: 50px;
-}
-
-#side-slide-bars h2{
-    width: 10vw;
-    margin-left: -2vw;
-    padding: 12px 12px 12px 50px;
-    background-color: rgb(84, 255, 198);
-    border-radius: 50px;
-}
-
 #overlayed-side-slide-bar h2{
     width: 10vw;
     position: fixed;
-    padding: 12px -2px 12px 10px;
+    padding: 12px 1px 12px 20px;
+    margin-left: -32vw;
     margin-top: 0px;
     left: 32vw;
     background-color: rgb(84, 255, 198);
-    border-radius: 50px;
+    border-radius: 0px 50px 50px 0px;
 }
 
 #overlayed-side-slide-bar{
     width: 35vw;
     height: 95vh;
     background-color:rgb(84, 255, 198);
-    top:0vh;
+    top:2vh;
     bottom: 0vw;
-    
+    margin-left: -35vw;
+    position: fixed;
+}
+
+#overlayed-side-slide-bar-1 h3{
+    width: 10vw;
+    position: fixed;
+    padding: 12px 0px 12px 20px;
+    margin-left: -32vw;
+    margin-top: 10vh;
+    left: 32vw;
+    background-color: rgb(84, 255, 198);
+    border-radius: 0px 50px 50px 0px;
+}
+
+#overlayed-side-slide-bar-1{
+    width: 35vw;
+    height: 95vh;
+    background-color:rgb(84, 255, 198);
+    top:2vh;
+    bottom: 0vw;
+    margin-left: -35vw;
+    position: fixed;
+}
+
+#overlayed-side-slide-bar-2 h3{
+    width: 10vw;
+    position: fixed;
+    padding: 12px 0px 12px 20px;
+    margin-left: -32vw;
+    margin-top: 20vh;
+    left: 32vw;
+    background-color: rgb(84, 255, 198);
+    border-radius: 0px 50px 50px 0px;
+}
+
+#overlayed-side-slide-bar-2{
+    width: 35vw;
+    height: 95vh;
+    background-color:rgb(84, 255, 198);
+    top:2vh;
+    bottom: 0vw;
+    margin-left: -35vw;
+    position: fixed;
 }
