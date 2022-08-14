@@ -1,4 +1,4 @@
-function slide() {
+function show() {
 
-    document.getElementById('side-slide-bar').toggle('active'); 
+    document.getElementById('overlayed-side-slide-bar').toggle('active'); 
 }

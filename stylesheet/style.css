@@ -68,7 +68,6 @@
     z-index: 2;
 }
 
-#side-slide-bar.active{
-    position: absolute;
-    left: 0px;
+#overlayed-side-slide-bar.active{
+    margin-left: 0px;
 }
