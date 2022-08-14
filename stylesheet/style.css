@@ -6,18 +6,20 @@
     margin-left: -32vw;
     margin-top: 0px;
     left: 32vw;
-    background-color: rgb(84, 255, 198);
+    background-color: #85AEFF;
     border-radius: 0px 50px 50px 0px;
+    z-index: 4;
 }
 
 #overlayed-side-slide-bar{
     width: 35vw;
     height: 95vh;
-    background-color:rgb(84, 255, 198);
+    background-color: #85AEFF;
     top:2vh;
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
+    z-index: 4;
 }
 
 #overlayed-side-slide-bar-1 h3{
@@ -27,18 +29,20 @@
     margin-left: -32vw;
     margin-top: 10vh;
     left: 32vw;
-    background-color: rgb(84, 255, 198);
+    background-color: #49ECD8;
     border-radius: 0px 50px 50px 0px;
+    z-index: 3;
 }
 
 #overlayed-side-slide-bar-1{
     width: 35vw;
     height: 95vh;
-    background-color:rgb(84, 255, 198);
+    background-color: #49ECD8;
     top:2vh;
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
+    z-index: 3;
 }
 
 #overlayed-side-slide-bar-2 h3{
@@ -48,16 +52,23 @@
     margin-left: -32vw;
     margin-top: 20vh;
     left: 32vw;
-    background-color: rgb(84, 255, 198);
+    background-color:#BEBBE3;
     border-radius: 0px 50px 50px 0px;
+    z-index: 2;
 }
 
 #overlayed-side-slide-bar-2{
     width: 35vw;
     height: 95vh;
-    background-color:rgb(84, 255, 198);
+    background-color:#BEBBE3;
     top:2vh;
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
+    z-index: 2;
+}
+
+#side-slide-bar.active{
+    position: absolute;
+    left: 0px;
 }
