@@ -68,6 +68,7 @@
     z-index: 2;
 }
 
-#overlayed-side-slide-bar.active{
-    margin-left: 0px;
+#overlayed-side-slide-bar:hover, #overlayed-side-slide-bar h2:hover, #overlayed-side-slide-bar-1:hover, #overlayed-side-slide-bar-1 h3:hover, #overlayed-side-slide-bar-2:hover, #overlayed-side-slide-bar-2 h3:hover {
+    transition-delay: 10ms;
+    z-index: 5;
 }
