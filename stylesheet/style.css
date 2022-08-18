@@ -68,8 +68,15 @@
     z-index: 2;
 }
 
-#slide {
-    position: fixed;
-    height: 100vh;
-    width: 35vw;
+#collapse{
+    z-index: 8;
+    font-size: 30px;
+    height: 35px;
+    width: 35px;
+    line-height: 100px;
+    position:fixed;
+    top: -3vh;
+    display: none;
 }
+
+
