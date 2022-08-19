@@ -8,7 +8,7 @@
     left: 32vw;
     background-color: #85AEFF;
     border-radius: 0px 50px 50px 0px;
-    z-index: 4;
+    z-index: 5;
 }
 
 #overlayed-side-slide-bar{
@@ -19,7 +19,7 @@
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
-    z-index: 4;
+    z-index: 5;
 }
 
 #overlayed-side-slide-bar-1 h3{
@@ -31,7 +31,7 @@
     left: 32vw;
     background-color: #49ECD8;
     border-radius: 0px 50px 50px 0px;
-    z-index: 3;
+    z-index: 4;
 }
 
 #overlayed-side-slide-bar-1{
@@ -42,7 +42,7 @@
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
-    z-index: 3;
+    z-index: 4;
 }
 
 #overlayed-side-slide-bar-2 h3{
@@ -54,7 +54,7 @@
     left: 32vw;
     background-color:#BEBBE3;
     border-radius: 0px 50px 50px 0px;
-    z-index: 2;
+    z-index: 3;
 }
 
 #overlayed-side-slide-bar-2{
@@ -65,11 +65,11 @@
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 #collapse{
-    z-index: 8;
+    z-index: 6;
     font-size: 30px;
     height: 35px;
     width: 35px;
