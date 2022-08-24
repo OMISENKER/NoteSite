@@ -54,7 +54,7 @@
     position: fixed;
     padding: 12px 0px 12px 20px;
     margin-left: -32vw;
-    margin-top: 20vh;
+    margin-top: 19vh;
     left: 32vw;
     background-color:#BEBBE3;
     cursor: default;
@@ -74,8 +74,15 @@
     z-index: 2;
 }
 
+#overlayed-side-slide-bar-1:hover, #title-1:hover,
+#overlayed-side-slide-bar-2:hover, #title-2:hover,
+#overlayed-side-slide-bar-3:hover, #title-3:hover{
+    z-index: 6 !important; 
+    transition-duration: 0s;
+}
+
 #collapse{
-    z-index: 6;
+    z-index: 7;
     font-size: 30px;
     height: 35px;
     width: 35px;

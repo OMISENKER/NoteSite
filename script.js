@@ -22,19 +22,19 @@ function moveFirstTitle(){
     document.getElementById('title-3').style.marginLeft = "2vw";
     //z-index
     document.getElementById('overlayed-side-slide-bar-1').style.zIndex = "5";
-    document.getElementById('title-1').style.zIndex = "5";
     document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "4";
-    document.getElementById('title-2').style.zIndex = "4";
     document.getElementById('overlayed-side-slide-bar-3').style.zIndex = "3";
+    document.getElementById('title-1').style.zIndex = "5";
+    document.getElementById('title-2').style.zIndex = "4";
     document.getElementById('title-3').style.zIndex = "3";
     //show close button
     document.getElementById('collapse').style.display = "block";
     //set transition order
     document.getElementById('overlayed-side-slide-bar-1').style.transition = "0.5s";
-    document.getElementById('title-1').style.transition = "0.5s";
     document.getElementById('overlayed-side-slide-bar-2').style.transition = "1s";
-    document.getElementById('title-2').style.transition = "1s";
     document.getElementById('overlayed-side-slide-bar-3').style.transition = "1.5s";
+    document.getElementById('title-1').style.transition = "0.5s";
+    document.getElementById('title-2').style.transition = "1s";
     document.getElementById('title-3').style.transition = "1.5s";
     //call set transition for closing function
     setSelectedTitleBar = 1;
@@ -49,20 +49,20 @@ function moveSecondTitle(){
     document.getElementById('title-2').style.marginLeft = "2vw";
     document.getElementById('title-3').style.marginLeft = "2vw";
     //z-index
-    document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "5";
-    document.getElementById('title-2').style.zIndex = "5";
     document.getElementById('overlayed-side-slide-bar-1').style.zIndex = "4";
-    document.getElementById('title-1').style.zIndex = "4";
+    document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "5";
     document.getElementById('overlayed-side-slide-bar-3').style.zIndex = "3";
+    document.getElementById('title-1').style.zIndex = "4";
+    document.getElementById('title-2').style.zIndex = "5";
     document.getElementById('title-3').style.zIndex = "3";
     //show close button
     document.getElementById('collapse').style.display = "block";
     //set transition order
     document.getElementById('overlayed-side-slide-bar-1').style.transition = "1s";
-    document.getElementById('title-1').style.transition = "1s";
     document.getElementById('overlayed-side-slide-bar-2').style.transition = "0.5s";
-    document.getElementById('title-2').style.transition = "0.5s";
     document.getElementById('overlayed-side-slide-bar-3').style.transition = "1.5s";
+    document.getElementById('title-1').style.transition = "1s";
+    document.getElementById('title-2').style.transition = "0.5s";
     document.getElementById('title-3').style.transition = "1.5s";
     //call set transition for closing function
     setSelectedTitleBar = 2;
@@ -77,20 +77,20 @@ function moveThirdTitle(){
     document.getElementById('title-2').style.marginLeft = "2vw";
     document.getElementById('title-3').style.marginLeft = "2vw";
     //z-index
-    document.getElementById('overlayed-side-slide-bar-3').style.zIndex = "5";
-    document.getElementById('title-3').style.zIndex = "5";
     document.getElementById('overlayed-side-slide-bar-1').style.zIndex = "3";
-    document.getElementById('title-1').style.zIndex = "3";
     document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "4";
+    document.getElementById('overlayed-side-slide-bar-3').style.zIndex = "5";
+    document.getElementById('title-1').style.zIndex = "3";
     document.getElementById('title-2').style.zIndex = "4";
+    document.getElementById('title-3').style.zIndex = "5";
     //show close button
     document.getElementById('collapse').style.display = "block";
     //set transition order
     document.getElementById('overlayed-side-slide-bar-1').style.transition = "1.5s";
-    document.getElementById('title-1').style.transition = "1.5s";
     document.getElementById('overlayed-side-slide-bar-2').style.transition = "1s";
-    document.getElementById('title-2').style.transition = "1s";
     document.getElementById('overlayed-side-slide-bar-3').style.transition = "0.5s";
+    document.getElementById('title-1').style.transition = "1.5s";
+    document.getElementById('title-2').style.transition = "1s";
     document.getElementById('title-3').style.transition = "0.5s";
     //call set transition for closing function
     setSelectedTitleBar = 3;
@@ -116,28 +116,34 @@ function collapseSlideBar(){
 function setTransitionBasedOnSelectedTitle(){
 
     if(setSelectedTitleBar == 1){
-        document.getElementById('title-1').style.transition = "1.5s";
         document.getElementById('overlayed-side-slide-bar-1').style.transition = "1.5s";
-        document.getElementById('title-2').style.transition = "1s";
         document.getElementById('overlayed-side-slide-bar-2').style.transition = "1s";
-        document.getElementById('title-3').style.transition = "0.5s";
         document.getElementById('overlayed-side-slide-bar-3').style.transition = "0.5s";
+        document.getElementById('title-1').style.transition = "1.5s";
+        document.getElementById('title-2').style.transition = "1s";
+        document.getElementById('title-3').style.transition = "0.5s";
     }else if(setSelectedTitleBar == 2){
-        document.getElementById('title-1').style.transition = "1s";
         document.getElementById('overlayed-side-slide-bar-1').style.transition = "1s";
-        document.getElementById('title-2').style.transition = "1.5s";
         document.getElementById('overlayed-side-slide-bar-2').style.transition = "1.5s";
-        document.getElementById('title-3').style.transition = "0.5s";
         document.getElementById('overlayed-side-slide-bar-3').style.transition = "0.5s";
+        document.getElementById('title-1').style.transition = "1s";
+        document.getElementById('title-2').style.transition = "1.5s";
+        document.getElementById('title-3').style.transition = "0.5s";
     }else if(setSelectedTitleBar == 3){
-        document.getElementById('title-1').style.transition = "0.5s";
         document.getElementById('overlayed-side-slide-bar-1').style.transition = "0.5s";
-        document.getElementById('title-2').style.transition = "1s";
         document.getElementById('overlayed-side-slide-bar-2').style.transition = "1s";
-        document.getElementById('title-3').style.transition = "1.5s";
         document.getElementById('overlayed-side-slide-bar-3').style.transition = "1.5s";
+        document.getElementById('title-1').style.transition = "0.5s";
+        document.getElementById('title-2').style.transition = "1s";
+        document.getElementById('title-3').style.transition = "1.5s";
     }else{
-        console.log("not working");
+        document.getElementById('overlayed-side-slide-bar-1').style.transition = "1.5s";
+        document.getElementById('overlayed-side-slide-bar-2').style.transition = "1.5s";
+        document.getElementById('overlayed-side-slide-bar-3').style.transition = "1.5s";
+        document.getElementById('title-1').style.transition = "1.5s";
+        document.getElementById('title-2').style.transition = "1.5s";
+        document.getElementById('title-3').style.transition = "1.5s";
+        console.log("setTransitionBasedOnSelectedTitle FUNCTION not working");
     }
 }
 
