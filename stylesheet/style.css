@@ -1,5 +1,5 @@
 
-#overlayed-side-slide-bar h2{
+#overlayed-side-slide-bar-1 h2{
     width: 10vw;
     position: fixed;
     padding: 12px 1px 12px 20px;
@@ -7,42 +7,21 @@
     margin-top: 0px;
     left: 32vw;
     background-color: #85AEFF;
+    cursor: default;
     border-radius: 0px 50px 50px 0px;
-    z-index: 5;
-}
-
-#overlayed-side-slide-bar{
-    width: 35vw;
-    height: 95vh;
-    background-color: #85AEFF;
-    top:2vh;
-    bottom: 0vw;
-    margin-left: -35vw;
-    position: fixed;
-    z-index: 5;
-}
-
-#overlayed-side-slide-bar-1 h3{
-    width: 10vw;
-    position: fixed;
-    padding: 12px 0px 12px 20px;
-    margin-left: -32vw;
-    margin-top: 10vh;
-    left: 32vw;
-    background-color: #49ECD8;
-    border-radius: 0px 50px 50px 0px;
-    z-index: 4;
+    z-index: 3;
 }
 
 #overlayed-side-slide-bar-1{
     width: 35vw;
     height: 95vh;
-    background-color: #49ECD8;
+    background-color: #85AEFF;
+    cursor: default;
     top:2vh;
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
-    z-index: 4;
+    z-index: 3;
 }
 
 #overlayed-side-slide-bar-2 h3{
@@ -50,22 +29,49 @@
     position: fixed;
     padding: 12px 0px 12px 20px;
     margin-left: -32vw;
-    margin-top: 20vh;
+    margin-top: 10vh;
     left: 32vw;
-    background-color:#BEBBE3;
+    background-color: #49ECD8;
+    cursor: default;
     border-radius: 0px 50px 50px 0px;
-    z-index: 3;
+    z-index: 2;
 }
 
 #overlayed-side-slide-bar-2{
     width: 35vw;
     height: 95vh;
-    background-color:#BEBBE3;
+    background-color: #49ECD8;
+    cursor: default;
     top:2vh;
     bottom: 0vw;
     margin-left: -35vw;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
+}
+
+#overlayed-side-slide-bar-3 h3{
+    width: 10vw;
+    position: fixed;
+    padding: 12px 0px 12px 20px;
+    margin-left: -32vw;
+    margin-top: 20vh;
+    left: 32vw;
+    background-color:#BEBBE3;
+    cursor: default;
+    border-radius: 0px 50px 50px 0px;
+    z-index: 2;
+}
+
+#overlayed-side-slide-bar-3{
+    width: 35vw;
+    height: 95vh;
+    background-color:#BEBBE3;
+    cursor: default;
+    top:2vh;
+    bottom: 0vw;
+    margin-left: -35vw;
+    position: fixed;
+    z-index: 2;
 }
 
 #collapse{
@@ -74,6 +80,7 @@
     height: 35px;
     width: 35px;
     line-height: 100px;
+    cursor: default;
     position:fixed;
     top: -3vh;
     display: none;
