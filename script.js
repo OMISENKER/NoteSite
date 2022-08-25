@@ -17,9 +17,9 @@ function moveFirstTitle(){
     document.getElementById('overlayed-side-slide-bar-1').style.marginLeft = "-1vw";
     document.getElementById('overlayed-side-slide-bar-2').style.marginLeft = "-1vw";
     document.getElementById('overlayed-side-slide-bar-3').style.marginLeft = "-1vw";
-    document.getElementById('title-1').style.marginLeft = "2vw";
-    document.getElementById('title-2').style.marginLeft = "2vw";
-    document.getElementById('title-3').style.marginLeft = "2vw";
+    document.getElementById('title-1').style.marginLeft = "-8vw";
+    document.getElementById('title-2').style.marginLeft = "-8vw";
+    document.getElementById('title-3').style.marginLeft = "-8vw";
     //z-index
     document.getElementById('overlayed-side-slide-bar-1').style.zIndex = "5";
     document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "4";
@@ -45,9 +45,9 @@ function moveSecondTitle(){
     document.getElementById('overlayed-side-slide-bar-1').style.marginLeft = "-1vw";
     document.getElementById('overlayed-side-slide-bar-2').style.marginLeft = "-1vw";
     document.getElementById('overlayed-side-slide-bar-3').style.marginLeft = "-1vw";
-    document.getElementById('title-1').style.marginLeft = "2vw";
-    document.getElementById('title-2').style.marginLeft = "2vw";
-    document.getElementById('title-3').style.marginLeft = "2vw";
+    document.getElementById('title-1').style.marginLeft = "-8vw";
+    document.getElementById('title-2').style.marginLeft = "-8vw";
+    document.getElementById('title-3').style.marginLeft = "-8vw";
     //z-index
     document.getElementById('overlayed-side-slide-bar-1').style.zIndex = "4";
     document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "5";
@@ -73,9 +73,9 @@ function moveThirdTitle(){
     document.getElementById('overlayed-side-slide-bar-1').style.marginLeft = "-1vw";
     document.getElementById('overlayed-side-slide-bar-2').style.marginLeft = "-1vw";
     document.getElementById('overlayed-side-slide-bar-3').style.marginLeft = "-1vw";
-    document.getElementById('title-1').style.marginLeft = "2vw";
-    document.getElementById('title-2').style.marginLeft = "2vw";
-    document.getElementById('title-3').style.marginLeft = "2vw";
+    document.getElementById('title-1').style.marginLeft = "-8vw";
+    document.getElementById('title-2').style.marginLeft = "-8vw";
+    document.getElementById('title-3').style.marginLeft = "-8vw";
     //z-index
     document.getElementById('overlayed-side-slide-bar-1').style.zIndex = "3";
     document.getElementById('overlayed-side-slide-bar-2').style.zIndex = "4";
@@ -99,9 +99,9 @@ function moveThirdTitle(){
 
 function collapseSlideBar(){
     //hide
-    document.getElementById('overlayed-side-slide-bar-1').style.marginLeft = "-35vw";
-    document.getElementById('overlayed-side-slide-bar-2').style.marginLeft = "-35vw";
-    document.getElementById('overlayed-side-slide-bar-3').style.marginLeft = "-35vw";
+    document.getElementById('overlayed-side-slide-bar-1').style.marginLeft = "-25vw";
+    document.getElementById('overlayed-side-slide-bar-2').style.marginLeft = "-25vw";
+    document.getElementById('overlayed-side-slide-bar-3').style.marginLeft = "-25vw";
     document.getElementById('title-1').style.marginLeft = "-32vw";
     document.getElementById('title-2').style.marginLeft = "-32vw";
     document.getElementById('title-3').style.marginLeft = "-32vw";
